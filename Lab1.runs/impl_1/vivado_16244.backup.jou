@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Jan 28 17:41:44 2025
+# Process ID: 16244
+# Current directory: D:/ECE441/Lab1/Lab1/Lab1.runs/impl_1
+# Command line: vivado.exe -log HA.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source HA.tcl -notrace
+# Log file: D:/ECE441/Lab1/Lab1/Lab1.runs/impl_1/HA.vdi
+# Journal file: D:/ECE441/Lab1/Lab1/Lab1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source HA.tcl -notrace

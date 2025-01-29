@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1738115251">
+  <File Type="PWROPT-DCP" Name="PFA_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="PFA_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="PFA.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="PFA_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="PFA_reports.tcl"/>
+  <File Type="BG-DRC" Name="PFA.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="PFA_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="PFA_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="PFA.hwdef"/>
+  <File Type="OPT-DCP" Name="PFA_opt.dcp"/>
+  <File Type="OPT-DRC" Name="PFA_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="PFA_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="PFA_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="PFA_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="PFA_placed.dcp"/>
+  <File Type="PLACE-IO" Name="PFA_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="PFA_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="PFA_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="PFA_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="PFA_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="PFA_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="PFA_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="PFA_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="PFA_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="PFA_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="PFA_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="PFA_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="PFA.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="PFA_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="PFA_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="PFA_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="PFA_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="PFA_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="PFA_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="PFA.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="PFA_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="PFA.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="PFA_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="PFA.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="PFA_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="PFA.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="PFA_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="PFA_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="PFA_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="PFA_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="PFA_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="PFA_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="PFA_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="PFA_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="PFA.vdi"/>
+  <File Type="ROUTE-CLK" Name="PFA_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="PFA_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="PFA_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="PFA_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="PFA_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="PFA_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="PFA.nky"/>
+  <File Type="BITSTR-BMM" Name="PFA_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="PFA.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="PFA.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="PFA.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/PartialFullAdder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HalfAdder.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/FullAdder.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/carry_oper.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/generator.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/Adder2Bits.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab1/Adder4bits.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/Adder4bits.vhd"/>
+        <Attr Name="ImportTime" Val="1738092868"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/carry_tree_adder.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/KSA_8_bit.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/carry_look_ahead_adder.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="PFA"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/NEXYS-A7-4bit-CLA.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/NEXYS-A7-4bit-KSA.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/NEXYS-A7-4bit-RCA.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/NEXYS-A7-FA.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/NEXYS-A7-2bit-RCA.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
