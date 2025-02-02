@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Feb  1 18:54:50 2025
+# Process ID: 3136
+# Current directory: C:/Users/alymooltazeem/Documents/ECE441/Lab1.runs/synth_1
+# Command line: vivado.exe -log kogge_stone_adder_8bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source kogge_stone_adder_8bit.tcl
+# Log file: C:/Users/alymooltazeem/Documents/ECE441/Lab1.runs/synth_1/kogge_stone_adder_8bit.vds
+# Journal file: C:/Users/alymooltazeem/Documents/ECE441/Lab1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source kogge_stone_adder_8bit.tcl -notrace

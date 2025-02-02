@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1738464887">
+  <File Type="PWROPT-DCP" Name="kogge_stone_adder_8bit_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="kogge_stone_adder_8bit_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="kogge_stone_adder_8bit.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="kogge_stone_adder_8bit_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="kogge_stone_adder_8bit_reports.tcl"/>
+  <File Type="BG-DRC" Name="kogge_stone_adder_8bit.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="kogge_stone_adder_8bit_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="kogge_stone_adder_8bit_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="kogge_stone_adder_8bit.hwdef"/>
+  <File Type="OPT-DCP" Name="kogge_stone_adder_8bit_opt.dcp"/>
+  <File Type="OPT-DRC" Name="kogge_stone_adder_8bit_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="kogge_stone_adder_8bit_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="kogge_stone_adder_8bit_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="kogge_stone_adder_8bit_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="kogge_stone_adder_8bit_placed.dcp"/>
+  <File Type="PLACE-IO" Name="kogge_stone_adder_8bit_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="kogge_stone_adder_8bit_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="kogge_stone_adder_8bit_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="kogge_stone_adder_8bit_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="kogge_stone_adder_8bit_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="kogge_stone_adder_8bit_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="kogge_stone_adder_8bit_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="kogge_stone_adder_8bit_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="kogge_stone_adder_8bit_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="kogge_stone_adder_8bit_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="kogge_stone_adder_8bit_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="kogge_stone_adder_8bit_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="kogge_stone_adder_8bit.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="kogge_stone_adder_8bit_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="kogge_stone_adder_8bit_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="kogge_stone_adder_8bit_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="kogge_stone_adder_8bit_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="kogge_stone_adder_8bit_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="kogge_stone_adder_8bit_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="kogge_stone_adder_8bit.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="kogge_stone_adder_8bit_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="kogge_stone_adder_8bit.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="kogge_stone_adder_8bit_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="kogge_stone_adder_8bit.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="kogge_stone_adder_8bit_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="kogge_stone_adder_8bit.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="kogge_stone_adder_8bit_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="kogge_stone_adder_8bit_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="kogge_stone_adder_8bit_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="kogge_stone_adder_8bit_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="kogge_stone_adder_8bit_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="kogge_stone_adder_8bit_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="kogge_stone_adder_8bit_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="kogge_stone_adder_8bit_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="kogge_stone_adder_8bit.vdi"/>
+  <File Type="ROUTE-CLK" Name="kogge_stone_adder_8bit_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="kogge_stone_adder_8bit_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="kogge_stone_adder_8bit_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="kogge_stone_adder_8bit_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="kogge_stone_adder_8bit_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="kogge_stone_adder_8bit_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="kogge_stone_adder_8bit.nky"/>
+  <File Type="BITSTR-BMM" Name="kogge_stone_adder_8bit_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="kogge_stone_adder_8bit.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="kogge_stone_adder_8bit.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="kogge_stone_adder_8bit.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/KSA_8_bit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/carry_oper.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/generator.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/PartialFullAdder.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/carry_look_ahead_adder.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HalfAdder.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/FullAdder.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/Adder2Bits.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab1/Adder4bits.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/Adder4bits.vhd"/>
+        <Attr Name="ImportTime" Val="1738092868"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/carry_tree_adder.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="kogge_stone_adder_8bit"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/NEXYS-A7-4bit-CLA.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/NEXYS-A7-4bit-KSA.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/NEXYS-A7-4bit-RCA.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/NEXYS-A7-FA.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/NEXYS-A7-2bit-RCA.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
