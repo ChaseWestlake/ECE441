@@ -26,9 +26,9 @@ signal red, green, blue : unsigned( 3 downto 0 );
 
 begin
 
-    red <= unsigned( pixel_in( 11 downto 8 ));
-    green <= unsigned( pixel_in( 7 downto 4 ));
-    blue <= unsigned( pixel_in( 3 downto 0 ));
+    red <= to_unsigned(15, 4) - unsigned( pixel_in( 11 downto 8 ));
+    green <= to_unsigned(15, 4) - unsigned( pixel_in( 7 downto 4 ));
+    blue <= to_unsigned(15, 4) - unsigned( pixel_in( 3 downto 0 ));
 
 
     pixel_out <= std_logic_vector( red & green & blue );
